@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: cornflowerblue;
+}
+
+.random_password_generator_appcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  gap: 1rem;
+}
+
+.headline {
+  color: cornflowerblue;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+#printpassword_inputfield {
+  width: 100%;
+  background: transparent;
+  outline: none;
+  padding: 5px 8px;
+  letter-spacing: 3px;
+}
+
+.generatepassword_btn {
+  background: cornflowerblue;
+  color: #fff;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.generatepassword_btn:hover {
+  background: transparent;
+  color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+}
+
+.generatepassword_btn:active {
+  transform: scale(1.1);
+}
+
+.inputbox {
+  position: relative;
+  width: 100%;
+}
+
+#copypasswordicon {
+  fill: cornflowerblue;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  cursor: pointer;
+  top: 6px;
+  width: 20px;
+}
